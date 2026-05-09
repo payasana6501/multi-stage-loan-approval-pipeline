@@ -12,3 +12,7 @@ wheels/
 # folder
 archive/*
 *pyc
+
+# Model artifacts — reproduce by running 3_Modeling.ipynb
+models/*.pkl
+*.pkl
