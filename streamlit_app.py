@@ -64,7 +64,7 @@ if st.button("Predict"):
         st.write("Approval probability : {:2%}".format(res['approved_prob']))
         if res['approved'] == 1:
             st.success("✅ Approved")
-            st.write(f"Predicted loan amount (or interest): {res['reg_pred']:.2f}")
+            st.write(f"Predicted loan amount: {res['reg_pred']:.2f}")
         else:
             st.error("❌ REJECTED")
     except Exception as e:
